@@ -8,7 +8,7 @@ const headerStyle: React.CSSProperties = {
     justifyContent: 'center',
     minHeight: '100px',
     width: '100%',
-    padding: '20px',
+    padding: '16px 0 0 0'
 };
 
 export default function Header() {

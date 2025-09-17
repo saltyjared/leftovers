@@ -5,7 +5,8 @@ const divStyle: React.CSSProperties = {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    margin: '-15px 0 40px 0'
 };
 
 export default function MixingBowl() {
