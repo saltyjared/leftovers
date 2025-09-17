@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import MixingBowl from './components/MixingBowl';
+import IngredientsBar from './components/IngredientsBar';
 
-function Header() {
-  
-}
 
 function App() {
   return (
     <>
-    Hello, world.
+      <Header />
+      <MixingBowl />
+      <IngredientsBar />
     </>
   );
 }
