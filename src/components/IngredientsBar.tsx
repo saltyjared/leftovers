@@ -37,10 +37,12 @@ function Button({ label, onClick }: { label: string; onClick: () => void }) {
 
 export default function IngredientsBar({
     onAddIngredient,
-    onClearIngredients
+    onClearIngredients,
+    onGenerateRecipes
 }: {
     onAddIngredient: (ingredient: string) => void;
     onClearIngredients: () => void;
+    onGenerateRecipes: () => void;
 }) {
     const [inputValue, setInput] = React.useState('');
 
@@ -58,6 +60,10 @@ export default function IngredientsBar({
         setInput('');
     };
 
+    const handleGenerate = () => {
+        onGenerateRecipes();
+    };
+
     return (
         <>
             <form style={formStyle} onSubmit={handleAdd}>
@@ -70,7 +76,7 @@ export default function IngredientsBar({
                 />
                 <Button label="Add" onClick={handleAdd} />
                 <Button label="Clear" onClick={handleClear} />
-                <Button label="🧑‍🍳✨" onClick={() => { }} />
+                <Button label="🧑‍🍳✨" onClick={handleGenerate} />
             </form>
         </>
     )
