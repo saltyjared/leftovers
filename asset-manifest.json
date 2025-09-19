@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/leftovers/static/css/main.89abc5d0.css",
-    "main.js": "/leftovers/static/js/main.4b3f5e6c.js",
+    "main.js": "/leftovers/static/js/main.a8f10f8b.js",
     "static/media/mixingBowl.png": "/leftovers/static/media/mixingBowl.af7df055b6728d5bcfb4.png",
     "static/media/leftovers.png": "/leftovers/static/media/leftovers.d6d3bd3bfbcb83c519ad.png",
     "index.html": "/leftovers/index.html",
     "main.89abc5d0.css.map": "/leftovers/static/css/main.89abc5d0.css.map",
-    "main.4b3f5e6c.js.map": "/leftovers/static/js/main.4b3f5e6c.js.map"
+    "main.a8f10f8b.js.map": "/leftovers/static/js/main.a8f10f8b.js.map"
   },
   "entrypoints": [
     "static/css/main.89abc5d0.css",
-    "static/js/main.4b3f5e6c.js"
+    "static/js/main.a8f10f8b.js"
   ]
 }
