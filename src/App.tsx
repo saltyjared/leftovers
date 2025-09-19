@@ -9,6 +9,10 @@ import RecipeOverlay from './components/RecipeOverlay';
 const apiKey = process.env.REACT_APP_AIML_API_KEY;
 
 function App() {
+  React.useEffect(() => {
+    document.title = "leftovers";
+  }, [])
+
   const [ingredients, setIngredients] = React.useState<string[]>([]);
   const [isLoading, setIsLoading] = React.useState(false);
   const [showOverlay, setShowOverlay] = React.useState(false);
