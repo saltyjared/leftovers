@@ -7,7 +7,7 @@ leftovers is a React app that helps recommend to you recipes based on ingredient
 ![leftovers preview](public/leftovers_preview.png)
 - **Ingredient Input:** Add and clear ingredients to build your list.
 
-![Recipe overlay example](public/recipe_example.png)
+<img src="public/recipe_example.png" alt="Recipe overlay example" width="200"/>
 - **AI Recipe Generation:** Get a single, detailed recipe using your ingredients.
 - **Download Recipe:** Export the recipe as a `.txt` file with a single click.
 
