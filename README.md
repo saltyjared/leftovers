@@ -1,4 +1,4 @@
-# # [Leftovers](https://saltyjared.github.io/leftovers/)
+# [Leftovers](https://saltyjared.github.io/leftovers/)
 
 leftovers is a React app that helps recommend to you recipes based on ingredients you have on hand.
 
