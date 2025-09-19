@@ -1,13 +1,16 @@
-
-# Leftovers
+# # [Leftovers](https://saltyjared.github.io/leftovers/)
 
 leftovers is a React app that helps recommend to you recipes based on ingredients you have on hand.
 
 ## Features
 
+![leftovers preview](public/leftovers_preview.png)
 - **Ingredient Input:** Add and clear ingredients to build your list.
+
+![Recipe overlay example](public/recipe_example.png)
 - **AI Recipe Generation:** Get a single, detailed recipe using your ingredients.
 - **Download Recipe:** Export the recipe as a `.txt` file with a single click.
+
 - **Responsive Design:** Works well on desktop and mobile browsers.
 
 ## Project Structure
